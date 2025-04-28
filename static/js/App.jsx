@@ -68,7 +68,7 @@ export function App({ routerHook }) {
       <div className="container-md">
         <div className="col-10 mx-auto">
           <div className="text-center m-4">
-            <img src={PAGE_CONFIG.logoUrl} width={PAGE_CONFIG.logoWidth} />
+            <img src={PAGE_CONFIG.logoUrl} width="500px" />
           </div>
           <Router base={baseRouteUrl} hook={routerHook}>
             <Switch>
