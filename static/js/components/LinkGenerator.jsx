@@ -190,7 +190,7 @@ export function LinkGenerator({
             className="form-control border border-2 border-start-0"
             type="text"
             name="repository"
-            placeholder={selectedProvider.repo.placeholder}
+            placeholder="example: neurolibre/mystical-article or https://github.com/neurolibre/mystical-article"
             disabled={isLaunching}
             aria-label="Enter repository URL"
             onChange={(e) => {
