@@ -1,7 +1,7 @@
 export function HowItWorks() {
   return (
     <div>
-      <h2 className="text-center mt-4">How it works</h2>
+      <h2 className="text-center mt-4">How to build a reproducible runtime for your living preprint?</h2>
 
       <div className="row my-4">
         <div className="col-md-1 offset-md-2">
