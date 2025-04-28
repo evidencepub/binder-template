@@ -62,7 +62,7 @@ export function HomePage({ providers, publicBaseUrl, baseUrl }) {
       <LinkGenerator
         className="bg-custom-dark p-4 pb-0 rounded-top"
         publicBaseUrl={publicBaseUrl}
-        providers={providers[0]}
+        providers={[providers[0]]}
         selectedProvider={selectedProvider}
         setSelectedProvider={setSelectedProvider}
         repo={repo}
