@@ -35,7 +35,13 @@ form {
 
 .btn-primary{
   background-color: #579aca;
-  color: #394459;
+  border-color: aliceblue;
+}
+
+.btn-validate {
+  @extend .btn-primary;
+  background-color: #e66581;
+  border-color: aliceblue;
 }
 
 .btn-primary,
@@ -73,7 +79,7 @@ a {
 }
 
 .btn-link {
-  color: #e66581;;
+  color: #e66581;
 }
 
 @import "bootstrap-icons/font/bootstrap-icons.css";

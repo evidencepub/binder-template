@@ -177,7 +177,7 @@ export function LinkGenerator({
 
   return (
     <form className={`d-flex flex-column gap-3 ${className}`}>
-      <h4>Build and launch a repository</h4>
+      <h4>Build a runtime environment for your Evidence preprint</h4>
       <fieldset>
         <legend className="form-label">{selectedProvider.repo.label}</legend>
         <div className="input-group">
@@ -238,11 +238,11 @@ export function LinkGenerator({
         </div> */}
         <div className="col-6">
           <button
-            className="btn btn-primary col-2 w-100"
+            className="btn btn-validate col-2 w-100"
             disabled={isLaunching}
             onClick={() => setIsLaunching(true)}
           >
-            {isLaunching ? "launching..." : "validate"}
+            {isLaunching ? "🌺 validating..." : "🌺 validate repository content 🌺"}
         </button>
         </div>
         <div className="col-6">
@@ -251,7 +251,7 @@ export function LinkGenerator({
             disabled={isLaunching}
             onClick={() => setIsLaunching(true)}
           >
-            {isLaunching ? "launching..." : "launch"}
+            {isLaunching ? "🚀 launching..." : "✨launch runtime build✨"}
           </button>
         </div>
       </div>
