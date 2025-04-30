@@ -239,10 +239,14 @@ export function LinkGenerator({
         <div className="col-6">
           <button
             className="btn btn-validate col-2 w-100"
-            disabled={isLaunching}
-            onClick={() => setIsLaunching(true)}
+            onClick={() => {
+              if (repo) {
+                const validateUrl = `https://preview.neurolibre.org/api/validate?repo_url=${repo}`;
+                window.open(validateUrl, '_blank');
+              }
+            }}
           >
-            {isLaunching ? "🌺 validating..." : "🌺 validate repository content 🌺"}
+            🌸 validate repository content 🌸
         </button>
         </div>
         <div className="col-6">
@@ -251,7 +255,7 @@ export function LinkGenerator({
             disabled={isLaunching}
             onClick={() => setIsLaunching(true)}
           >
-            {isLaunching ? "🚀 launching..." : "✨launch runtime build✨"}
+            {isLaunching ? "🐳 launching..." : "✨launch runtime build✨"}
           </button>
         </div>
       </div>
