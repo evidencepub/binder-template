@@ -236,7 +236,16 @@ export function LinkGenerator({
         <div className="col-5">
           <UrlSelector setUrlPath={setUrlPath} />
         </div> */}
-        <div className="col-2">
+        <div className="col-6">
+          <button
+            className="btn btn-primary col-2 w-100"
+            disabled={isLaunching}
+            onClick={() => setIsLaunching(true)}
+          >
+            {isLaunching ? "launching..." : "validate"}
+        </button>
+        </div>
+        <div className="col-6">
           <button
             className="btn btn-primary col-2 w-100"
             disabled={isLaunching}

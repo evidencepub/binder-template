@@ -33,6 +33,11 @@ form {
   color: aliceblue;
 }
 
+.btn-primary{
+  background-color: #579aca;
+  color: #394459;
+}
+
 .btn-primary,
 .btn-primary:hover {
   color: $white;
@@ -64,11 +69,11 @@ a {
 }
 
 .dropdown-toggle {
-  background-color: #e66581;
+  background-color: #f5a252;
 }
 
 .btn-link {
-  color: #579aca;
+  color: #e66581;;
 }
 
 @import "bootstrap-icons/font/bootstrap-icons.css";

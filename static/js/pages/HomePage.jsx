@@ -41,9 +41,12 @@ export function HomePage({ providers, publicBaseUrl, baseUrl }) {
   return (
     <>
       <div className="text-center col-10 mx-auto">
-        <h5>Breathe life into your precious research outputs</h5>
+        <h5>🌬️ Breathe life into your precious research outputs 🌱</h5>
         <p>
-          Code availability sections in traditional papers do not necessarily reproduce. By building a reproducible runtime for your Evidence preprint, you can ensure that the content of your preprint reproduces and have readers interact with it at a single click.
+          Code availability sections in traditional papers do not necessarily reproduce.
+        </p>
+        <p>
+          By building a reproducible runtime for your Evidence preprint using Binder, you can ensure that the content of your preprint reproduces and have readers interact with it at a single click.
         </p>
         <p className="fw-lighter mt-8">
           🧩 New to living preprints? Quick start with a{" "}
