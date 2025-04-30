@@ -41,22 +41,19 @@ export function HomePage({ providers, publicBaseUrl, baseUrl }) {
   return (
     <>
       <div className="text-center col-10 mx-auto">
-        <h5>Turn a Git repo into a collection of interactive notebooks</h5>
+        <h5>Breathe life into your precious research outputs</h5>
         <p>
-          Have a repository full of Jupyter notebooks? With Binder, open those
-          notebooks in an executable environment, making your code immediately
-          reproducible by anyone, anywhere.
+          Code availability sections in traditional papers do not necessarily reproduce. By building a reproducible runtime for your Evidence preprint, you can ensure that the content of your preprint reproduces and have readers interact with it at a single click.
         </p>
         <p className="fw-lighter mt-8">
-          New to Binder? Get started with a{" "}
+          🧩 New to living preprints? Quick start with a{" "}
           <a
-            href="https://the-turing-way.netlify.app/communication/binder/zero-to-binder.html"
+            href="https://evidencepub.io/templates"
             target="_blank"
             rel="noreferrer"
           >
-            Zero-to-Binder tutorial
+            repository template!
           </a>{" "}
-          in Julia, Python, or R.
         </p>
       </div>
       <LinkGenerator

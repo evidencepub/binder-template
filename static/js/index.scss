@@ -29,6 +29,8 @@ body {
 
 form {
   font-weight: 400;
+  background-color: $gray-100;
+  color: aliceblue;
 }
 
 .btn-primary,
@@ -58,6 +60,14 @@ a {
 
 .bg-custom-dark {
   background-color: rgb(235, 236, 237);
+}
+
+.dropdown-toggle {
+  background-color: #e66581;
+}
+
+.btn-link {
+  color: #579aca;
 }
 
 @import "bootstrap-icons/font/bootstrap-icons.css";
