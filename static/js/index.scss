@@ -35,18 +35,14 @@ form {
 
 .btn-primary{
   background-color: #579aca;
-  border-color: aliceblue;
+  border-color: #579aca;
 }
 
-.btn-validate {
-  @extend .btn-primary;
-  background-color: #e66581;
-  border-color: aliceblue;
-}
 
 .btn-primary,
 .btn-primary:hover {
-  color: $white;
+  color: #e66581;
+  border-color: #e66581;
 }
 
 a {

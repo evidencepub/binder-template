@@ -238,7 +238,7 @@ export function LinkGenerator({
         </div> */}
         <div className="col-6">
           <button
-            className="btn btn-validate col-2 w-100"
+            className="btn btn-primary col-2 w-100"
             onClick={() => {
               if (repo) {
                 const validateUrl = `https://preview.neurolibre.org/api/validate?repo_url=${repo}`;
@@ -248,7 +248,7 @@ export function LinkGenerator({
               }
             }}
           >
-            🌸 validate repository content 🌸
+            🗃️ validate repository content 🗃️
         </button>
         </div>
         <div className="col-6">
