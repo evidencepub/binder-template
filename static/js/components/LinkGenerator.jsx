@@ -243,6 +243,8 @@ export function LinkGenerator({
               if (repo) {
                 const validateUrl = `https://preview.neurolibre.org/api/validate?repo_url=${repo}`;
                 window.open(validateUrl, '_blank');
+              } else {
+                alert('Please enter a valid GitHub repository.');
               }
             }}
           >
