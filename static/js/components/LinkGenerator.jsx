@@ -211,7 +211,7 @@ export function LinkGenerator({
       </fieldset>
 
       <div className="row align-items-end">
-        <div className="col-5">
+        {/* <div className="col-5">
           <label htmlFor="ref" className="form-label">
             Git ref (branch, tag, or commit)
           </label>
@@ -235,7 +235,7 @@ export function LinkGenerator({
         </div>
         <div className="col-5">
           <UrlSelector setUrlPath={setUrlPath} />
-        </div>
+        </div> */}
         <div className="col-2">
           <button
             className="btn btn-primary col-2 w-100"
