@@ -248,7 +248,7 @@ export function LinkGenerator({
               }
             }}
           >
-            🗃️ validate repository content 🗃️
+            📁 validate layout 📁
         </button>
         </div>
         <div className="col-6">

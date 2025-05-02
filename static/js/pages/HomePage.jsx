@@ -41,12 +41,12 @@ export function HomePage({ providers, publicBaseUrl, baseUrl }) {
   return (
     <>
       <div className="text-center col-10 mx-auto">
-        <h5>🌬️ Breathe life into your precious research outputs 🌱</h5>
+        <h5> Think of Terrarium as a self-contained space that preserves all the dependencies your publication needs to live.</h5>
         <p>
-          Code availability sections in traditional papers do not necessarily reproduce.
+           🫙🌱
         </p>
         <p>
-          By building a reproducible runtime for your Evidence preprint using Binder, you can ensure that the content of your preprint reproduces and have readers interact with it at a single click.
+          Simply fill out the form below, validate your repository layout and build a reproducible runtime for your living preprint.
         </p>
         <p className="fw-lighter mt-8">
           🧩 New to living preprints? Quick start with a{" "}
