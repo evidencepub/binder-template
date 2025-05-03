@@ -15,7 +15,7 @@ export function HowItWorks() {
             1
           </span>
         </div>
-        <div className="col-md-8">
+        <div className="col-md-10">
           <h4>💽 Data dependencies (optional)</h4>
           <p>If your executable content requires data to generate outputs, Evidence expects a <code>data_requirement.json</code> file under the <code>📁 binder</code> directory of your repository to download and link it to your reproducible preprint environment.</p>
           <p>Once ready, please make <a target="_blank" href="https://github.com/neurolibre/info/issues/new/choose">a data download request</a> for us to approve hosting your data! If your preprint does not require data, you can skip this step.</p>
@@ -34,7 +34,7 @@ export function HowItWorks() {
             2
           </span>
         </div>
-        <div className="col-md-8">
+        <div className="col-md-10">
           <h4>🐳 Code dependencies</h4>
           <p>✨Your living preprint typically needs a Docker image (unless executable content is not included), but you don't need to build it yourself!</p>
           <p>Simply add <a target="_blank" href="https://repo2docker.readthedocs.io/en/latest/specification.html">REES</a> compatible dependency files, such as <code>requirements.txt</code> or <code>environment.yml</code> (for 🐍), in the repository's <code>📁 binder</code> directory and we will use them to build a Docker image for you.</p>
@@ -55,7 +55,7 @@ export function HowItWorks() {
             3
           </span>
         </div>
-        <div className="col-md-8">
+        <div className="col-md-10">
           <h4>🚀 A successful build</h4> 
           <p>Click launch to trigger a build of your reproducible runtime.</p>
           <p>If the build is successful, you will be redirected to a Jupyter Lab environment, where you can interact with your notebooks and see if all the dependencies are working.</p>
@@ -76,7 +76,7 @@ export function HowItWorks() {
             4
           </span>
         </div>
-        <div className="col-md-8">
+        <div className="col-md-10">
           <h4>🌺 Build your living preprint!</h4> 
           <p>We have created a living preprint builder for you: <a href="https://robo.neurolibre.org" target="_blank">robo.neurolibre.org</a></p>
           <p>If you went through the previous steps successfully, you can submit your living preprint preview build requests to this service.</p>

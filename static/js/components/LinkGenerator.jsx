@@ -248,7 +248,7 @@ export function LinkGenerator({
               }
             }}
           >
-            📁 validate layout 📁
+            🗂️ validate 🗂️
         </button>
         </div>
         <div className="col-6">
@@ -257,7 +257,7 @@ export function LinkGenerator({
             disabled={isLaunching}
             onClick={() => setIsLaunching(true)}
           >
-            {isLaunching ? "🐳 launching..." : "✨launch runtime build✨"}
+            {isLaunching ? "🐳 launching..." : "✨build✨"}
           </button>
         </div>
       </div>
