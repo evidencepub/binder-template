@@ -41,12 +41,12 @@ export function HomePage({ providers, publicBaseUrl, baseUrl }) {
   return (
     <>
       <div className="text-center col-10 mx-auto">
-        <h5> Think of Terrarium as a self-contained space that preserves all the dependencies your publication needs to live.</h5>
+        <h5> Think of Terrarium as a self-contained space that preserves all the dependencies your publication needs to come alive.</h5>
         <p style={{ fontSize: "1.5em" }}>
            🫙🌱
         </p>
         <p>
-          Simply point to your GitHub repository and ✨build✨ a reproducible runtime for your living preprint.
+          Simply point us to your GitHub repository below, and we'll ✨build✨ it for you.
         </p>
         <p className="fw-lighter mt-8">
           🧩 New to living preprints? Quick start with a{" "}

@@ -17,8 +17,8 @@ export function HowItWorks() {
         </div>
         <div className="col-md-8">
           <h4>💽 Data dependencies (optional)</h4>
-          <p>If your executable content requires data to generate outputs, Evidence expects a <code>data_requirement.json</code> file under the <code>📁 binder</code> directory of your repository to download and link it to your reproducible preprint environment.</p>
-          <p>Once ready, please make <a target="_blank" href="https://github.com/neurolibre/info/issues/new/choose">a data download request</a> for us to approve hosting your data! If your preprint does not require data, you can skip this step.</p>
+          <p>If your executable content needs data to produce outputs, ensure you include a <code>data_requirement.json</code> file in the <code>📁 binder</code> directory of your repository. This file allows Evidence to download and connect your data to the reproducible preprint environment.</p>
+          <p>To host your data, please submit <a target="_blank" href="https://github.com/neurolibre/info/issues/new/choose">a data download request</a> for approval. You can skip this step if your preprint does not require data.</p>
         </div>
       </div>
 
@@ -36,10 +36,11 @@ export function HowItWorks() {
         </div>
         <div className="col-md-8">
           <h4>🐳 Code dependencies</h4>
-          <p>✨Your living preprint typically needs a Docker image (unless executable content is not included), but you don't need to build it yourself!</p>
+          <p>Your living preprint usually requires a Docker image (unless it doesn't include executable content), but you don't need to build it yourself!</p>
           <p>Simply add <a target="_blank" href="https://repo2docker.readthedocs.io/en/latest/specification.html">REES</a> compatible dependency files, such as <code>requirements.txt</code> or <code>environment.yml</code> (for 🐍), in the repository's <code>📁 binder</code> directory and we will use them to build a Docker image for you.</p>
           <p>Check out <a target="_blank" href="http://mybinder.readthedocs.io/en/latest/using.html#preparing-a-repository-for-binder">reference documentation</a> for complete list of configuration files for different languages (<code>R</code>, <code>Julia</code>, <code>Octave</code> and more).</p>
-          <p>This service will check the latest commit (<code>HEAD</code>) of your repository on the main branch to decide whether a new image needs to be built.</p>
+          <p>This service will check the latest commit (<code>HEAD</code>) of your repository on the <code><b>main</b></code> branch to decide whether a new image needs to be built.</p>
+          <p>You can skip this step if your preprint does not involve any code.</p>
         </div>
       </div>
 
@@ -57,9 +58,9 @@ export function HowItWorks() {
         </div>
         <div className="col-md-8">
           <h4>🚀 A successful build</h4> 
-          <p>Click launch to trigger a build of your reproducible runtime.</p>
-          <p>If the build is successful, you will be redirected to a Jupyter Lab environment, where you can interact with your notebooks and see if all the dependencies are working.</p>
-          <p>This service will check the latest commit (<code>HEAD</code>) of your repository on the main branch to decide whether a new image needs to be built. If your dependencies will not change after your latest successful build, you can proceed to building your living preprint!</p>
+          <p>Click ✨build✨ to launch a new reproducible runtime.</p>
+          <p>If the build is successful, you will be redirected to a Jupyter Lab environment. Here, you can interact with your notebooks and see if all the dependencies are working.</p>
+          <p>Have your latest successful build captured all the dependencies you need? Then you can proceed to building your living preprint!</p>
           <p>You can visit <a href="https://runtimes.conp.cloud" target="_blank">our runtime gallery</a> to see the images we have built for you.</p>
         </div>
       </div>
