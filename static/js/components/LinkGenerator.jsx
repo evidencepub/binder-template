@@ -176,7 +176,7 @@ export function LinkGenerator({
   }
 
   return (
-    <form className={`d-flex flex-column gap-3 ${className}`}>
+    <form className={`d-flex flex-column gap-3 ${className}`} style={{ visibility: "hidden" }}>
       <h4>Build a runtime environment for your Evidence preprint</h4>
       <fieldset>
         <legend className="form-label">{selectedProvider.repo.label}</legend>

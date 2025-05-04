@@ -41,12 +41,12 @@ export function HomePage({ providers, publicBaseUrl, baseUrl }) {
   return (
     <>
       <div className="text-center col-10 mx-auto">
-        <h5> Think of Terrarium as a self-contained space that preserves all the dependencies your publication needs to come alive.</h5>
+        <h5> This Binder is reserved for published Evidence Living Preprints.</h5>
         <p style={{ fontSize: "1.5em" }}>
            🫙🌱
         </p>
-        <p>
-          Simply point us to your GitHub repository below, and we'll ✨build✨ it for you.
+        <p style={{ fontSize: "1.5em" }}>
+          Visit <a href="https://terrarium.evidencepub.io">terrarium</a> if you'd like to create a runtime for your next-gen preprint!
         </p>
         <p className="fw-lighter mt-8">
           🧩 New to living preprints? Quick start with a{" "}
