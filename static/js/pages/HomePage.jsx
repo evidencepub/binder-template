@@ -59,7 +59,7 @@ export function HomePage({ providers, publicBaseUrl, baseUrl }) {
           </a>{" "}
         </p>
       </div>
-      <LinkGenerator
+      {/* <LinkGenerator
         className="bg-custom-dark p-4 pb-0 rounded-top"
         publicBaseUrl={publicBaseUrl}
         providers={[providers[0]]}
@@ -82,8 +82,8 @@ export function HomePage({ providers, publicBaseUrl, baseUrl }) {
         setIsLaunching={setIsLaunching}
         progressState={progressState}
         setProgressState={setProgressState}
-      />
-      <FaviconUpdater progressState={progressState} />
+      /> */}
+      {/* <FaviconUpdater progressState={progressState} /> */}
       <HowItWorks />
     </>
   );
