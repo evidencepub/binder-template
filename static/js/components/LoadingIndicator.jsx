@@ -5,19 +5,13 @@ import { PROGRESS_STATES } from "./Progress.jsx";
  * List of help messages we will cycle through randomly in the loading page
  */
 const HELP_MESSAGES = [
-  'New to Binder? Check out the <a target="_blank" href="https://mybinder.readthedocs.io/en/latest/">Binder Documentation</a> for more information.',
-  'You can learn more about building your own Binder repositories in <a target="_blank" href="https://docs.mybinder.org">the Binder community documentation</a>.',
-  'We use the <a target="_blank" href="https://repo2docker.readthedocs.io/">repo2docker</a> tool to automatically build the environment in which to run your code.',
+  'New to Evidence? Check out the <a target="_blank" href="https://docs.neurolibre.org">our Documentation</a> for more information.',
+  'You can see a list of <a target="_blank" href="https://evidencepub.io/templates">templates</a> for your next-gen preprint.',
+  'You can learn more about building your reproducible runtimes in <a target="_blank" href="https://docs.mybinder.org">the Binder community documentation</a>.',
   'Take a look at the <a target="_blank" href="https://repo2docker.readthedocs.io/en/latest/config_files.html">full list of configuration files supported by repo2docker.</a>',
-  'Need more than just a Jupyter notebook? You can <a target="_blank" href="https://mybinder.readthedocs.io/en/latest/howto/user_interface.html">customize the user interface</a>.',
-  'Take a look at our <a target="_blank" href="https://github.com/binder-examples/">gallery of example repositories</a>.',
-  "If a repository takes a long time to launch, it is usually because Binder needs to create the environment for the first time.",
-  'The tool that powers this page is called <a target="_blank" href="https://binderhub.readthedocs.io">BinderHub</a>. It is an open source tool that you can deploy yourself.',
-  'The Binder team has <a target="_blank" href="https://mybinder-sre.readthedocs.io/en/latest/">a site reliability guide</a> that talks about what it is like to run a BinderHub.',
-  'You can connect with the Binder community in the <a target="_blank" href="https://discourse.jupyter.org/c/binder">Jupyter community forum</a>.',
+  'For runtimes, take a look at the <a target="_blank" href="https://github.com/binder-examples/">gallery of example Binder repositories</a>.',
+  "If a preprint takes a long time to launch, it is usually because the docker image is being pulled into the node your session will run on.",
   "Empty log? Notebook not loading? Maybe your ad blocker is interfering. Consider adding this site to the list of trusted sources.",
-  "Your launch may take longer the first few times a repository is used. This is because our machine needs to create your environment.",
-  'Read our <a target="_blank" href="https://discourse.jupyter.org/t/how-to-reduce-mybinder-org-repository-startup-time/4956">advice for speeding up your Binder launch</a>.',
 ];
 
 /**
@@ -50,7 +44,8 @@ export function LoadingIndicator({ progressState }) {
         </h4>
       ) : (
         <>
-          <h4>Launching your Binder...</h4>
+          <h4>Launching your Evidence Living Preprint's reproducible runtime environment...</h4>
+          <h4>💽+📑+❤️=🌱</h4>
           <div>
             <p dangerouslySetInnerHTML={{ __html: currentMessage }}></p>
           </div>
